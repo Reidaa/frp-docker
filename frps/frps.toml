@@ -1,0 +1,7 @@
+bindPort = ${FRP_BIND_PORT}
+
+# Auth — change this to a strong secret!
+auth.method = "token"
+auth.token = "${FRP_TOKEN}"
+
+vhostHTTPPort = ${FRP_VHOST_HTTP_PORT}
